@@ -19,6 +19,14 @@ A modern web application for discovering research papers and patents using Googl
 - **Backend**: Next.js API Routes
 - **Search API**: SerpApi (Google Scholar & Google Patents)
 - **Storage**: Browser localStorage for search history
+## SERAPI usage in project
+• Google Scholar API — used to retrieve academic papers and research publications based on the user's search query.
+
+• Google Patents API — used to retrieve relevant patent information related to the user's research topic.
+
+The application sends the user's search query to the appropriate SerpApi search engine, processes the returned results, and presents them in a unified interface. Users can then view relevant details and open the original source.
+
+SerpApi allows the application to bring academic literature and patent information together without requiring users to search these sources separately.
 
 ## Prerequisites
 
@@ -294,3 +302,6 @@ For issues or questions, please refer to:
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
+
+The project uses SerpApi as the core search data provider.
+
